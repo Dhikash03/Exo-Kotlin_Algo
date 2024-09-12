@@ -16,8 +16,24 @@ import _10_Demos_et_tests.testerEnLot
  * @return Une liste contenant la valeur maxi suivi de son indice.
  */
 fun firstMax(list: List<Int>): List<Int> {
+    // Indice ou est la valeur max
     var iMax = 0
-    // A COMPLETER ICI
+    //La valeur maximum dans la liste
+    var vMax=list[0]
+
+    for (index in list.indices){
+        if (vMax < list[index]){
+            vMax = list[index]
+            iMax = index
+        }
+
+                            // Si vmax est plus petit que la vvaleur presente a l'indice dans la liste
+
+        // vmax va prendre la valeur presente a cet indice
+        //imax va prendre la valeur de l'index
+
+    }
+
     return  listOf(list[iMax], iMax)
 }
 

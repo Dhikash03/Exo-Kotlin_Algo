@@ -1,5 +1,6 @@
 package _02_Les_classiques._1_Sujets
 
+import _03_Manipulation_dans_une_liste._1_Sujets.inverserListe
 import _10_Demos_et_tests.DataTestListList
 import _10_Demos_et_tests.demoEnLot
 import _10_Demos_et_tests.testerEnLot
@@ -20,7 +21,12 @@ fun triParSelection(liste: List<Int>): MutableList<Int> {
     // Copie de la liste :
     val listeCopie = liste.toMutableList()
 
-    // Algorithme de tri :
+    var list_inverse : List<Int> = listOf()
+
+    for(element in listeCopie ){
+
+    }
+        // Algorithme de tri :
     // A COMPLETER ICI
 
     return listeCopie
